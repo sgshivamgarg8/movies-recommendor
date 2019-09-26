@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Result</title>
+    </head>
+    <body>
+        <table>
+            {% for i in range(result|length) %}
+                <tr>
+                    <td>{{ result['title'][i] }} ({{ result['year'][i] }})</td>
+                </tr>
+            {% endfor %}
+        </table>
+        
+    </body>
+</html>

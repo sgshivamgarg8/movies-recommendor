@@ -1,0 +1,6 @@
+Datasets/
+activate
+.vscode
+/.idea
+env/
+*Copy*
